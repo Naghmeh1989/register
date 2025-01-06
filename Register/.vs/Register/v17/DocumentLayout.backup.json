@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\44757\\register\\Register\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|c:\\users\\44757\\register\\register\\register.api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|solutionrelative:register.api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|c:\\users\\44757\\register\\register\\register.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|solutionrelative:register.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|c:\\users\\44757\\register\\register\\register.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|solutionrelative:register.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|c:\\users\\44757\\register\\register\\register.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|solutionrelative:register.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\44757\\register\\Register\\Register.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Register.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\44757\\register\\Register\\Register.API\\appsettings.json",
+              "RelativeToolTip": "Register.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-06T15:34:18.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\44757\\register\\Register\\Register.API\\Program.cs",
+              "RelativeDocumentMoniker": "Register.API\\Program.cs",
+              "ToolTip": "C:\\Users\\44757\\register\\Register\\Register.API\\Program.cs",
+              "RelativeToolTip": "Register.API\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T15:33:58.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\44757\\register\\Register\\Register.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Register.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\44757\\register\\Register\\Register.API\\appsettings.Development.json",
+              "RelativeToolTip": "Register.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-06T15:33:43.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\44757\\register\\Register\\Register.API\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "Register.API\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\44757\\register\\Register\\Register.API\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "Register.API\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T13:32:47.073Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
