@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Register.API.Data;
+using Register.API.Mapping;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,7 +13,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<RegisterDbContext>(options=>
 options.UseSqlServer(builder.Configuration.GetConnectionString("RegisterConnectionString")));
-
+builder.Services.AddAutoMapper(typeof(AutoMapperProfiles));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

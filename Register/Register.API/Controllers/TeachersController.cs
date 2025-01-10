@@ -11,17 +11,20 @@ namespace Register.API.Controllers
     public class TeachersController : ControllerBase
     {
         private readonly RegisterDbContext dbContext;
-
         public TeachersController(RegisterDbContext dbContext)
         {
             this.dbContext = dbContext;
         }
+
+
         [HttpGet]
         public IActionResult GetAll()
         { 
             var teachers = dbContext.Teachers.ToList();
             return Ok(teachers);
         }
+
+
         [HttpGet]
         [Route("{id:Guid}")]
         public IActionResult GetById(Guid id)
@@ -33,6 +36,8 @@ namespace Register.API.Controllers
             }
             return Ok(teacher);
         }
+
+
         [HttpPost]
         public IActionResult Create(AddTeacherRequestDto addTeacherRequestDto)
         {
@@ -51,27 +56,59 @@ namespace Register.API.Controllers
             };
             return CreatedAtAction(nameof(GetById), new { id = teacher.Id },techerDto);
         }
+
+
         [HttpPost]
         [Route("Register")]
         public IActionResult Register(RegisterTeacherDto registerTeacherDto)
         {
             var course = dbContext.Courses.Find(registerTeacherDto.CourseId);
             if (course == null)
-            { return NotFound(); }
-
+            {
+                return NotFound();
+            }
             var teacher = dbContext.Teachers.Find(registerTeacherDto.TeacherId);
             if (teacher == null)
-            { return NotFound(); }
-
+            { 
+                return NotFound(); 
+            }
             var teacherCourse = new TeacherCourse
             {
                 CourseId = course.Id,
                 TeacherId = teacher.Id
-
             };
             dbContext.TeacherCourses.Add(teacherCourse);
             dbContext.SaveChanges();
             return Ok(teacherCourse);
+        }
+
+
+        [HttpDelete]
+        public IActionResult Delete(Guid id) 
+        {
+            var teacher = dbContext.Teachers.FirstOrDefault(t => t.Id == id);
+            if (teacher == null)
+            {
+                return NotFound();
+            }
+            dbContext.Teachers.Remove(teacher);
+            dbContext.SaveChanges();
+            return Ok(teacher);
+        }
+
+
+        [HttpPut]
+        public IActionResult Update(Guid id, UpdateTeacherRequestDto updateTeacherDto)
+        {
+            var teacher = dbContext.Teachers.FirstOrDefault(t => t.Id == id);
+            if (teacher == null)
+            {
+                return NotFound();
+            }
+            teacher.FirstName = updateTeacherDto.FirstName;
+            teacher.LastName = updateTeacherDto.LastName;
+            dbContext.SaveChanges();
+            return Ok(teacher);
         }
     }
 }

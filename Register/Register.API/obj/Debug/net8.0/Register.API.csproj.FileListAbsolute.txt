@@ -170,3 +170,5 @@ C:\Users\44757\register\Register\Register.API\obj\Debug\net8.0\refint\Register.A
 C:\Users\44757\register\Register\Register.API\obj\Debug\net8.0\Register.API.pdb
 C:\Users\44757\register\Register\Register.API\obj\Debug\net8.0\Register.API.genruntimeconfig.cache
 C:\Users\44757\register\Register\Register.API\obj\Debug\net8.0\ref\Register.API.dll
+C:\Users\44757\register\Register\Register.API\obj\Debug\net8.0\Register.API.sourcelink.json
+C:\Users\44757\register\Register\Register.API\bin\Debug\net8.0\AutoMapper.dll

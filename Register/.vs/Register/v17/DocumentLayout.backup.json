@@ -3,20 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\44757\\register\\Register\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|c:\\users\\44757\\register\\register\\register.api\\controllers\\teacherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|solutionrelative:register.api\\controllers\\teacherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|c:\\users\\44757\\register\\register\\register.api\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|solutionrelative:register.api\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|c:\\users\\44757\\register\\register\\register.api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|solutionrelative:register.api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|c:\\users\\44757\\register\\register\\register.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|solutionrelative:register.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|c:\\users\\44757\\register\\register\\register.api\\models\\domain\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|solutionrelative:register.api\\models\\domain\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|c:\\users\\44757\\register\\register\\register.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|solutionrelative:register.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|c:\\users\\44757\\register\\register\\register.api\\models\\domain\\studentcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|solutionrelative:register.api\\models\\domain\\studentcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|c:\\users\\44757\\register\\register\\register.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|solutionrelative:register.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|c:\\users\\44757\\register\\register\\register.api\\models\\domain\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|solutionrelative:register.api\\models\\domain\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|c:\\users\\44757\\register\\register\\register.api\\models\\domain\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|solutionrelative:register.api\\models\\domain\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|c:\\users\\44757\\register\\register\\register.api\\models\\domain\\teachercourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|solutionrelative:register.api\\models\\domain\\teachercourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|c:\\users\\44757\\register\\register\\register.api\\models\\dto\\addteacherrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|solutionrelative:register.api\\models\\dto\\addteacherrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|c:\\users\\44757\\register\\register\\register.api\\models\\dto\\updateteacherrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|solutionrelative:register.api\\models\\dto\\updateteacherrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|c:\\users\\44757\\register\\register\\register.api\\models\\dto\\updatestudentrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|solutionrelative:register.api\\models\\dto\\updatestudentrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|c:\\users\\44757\\register\\register\\register.api\\models\\dto\\updatecourserequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|solutionrelative:register.api\\models\\dto\\updatecourserequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|c:\\users\\44757\\register\\register\\register.api\\models\\dto\\addcourserequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1631065-01E0-4CB0-8D08-3FCCA272EE19}|Register.API\\Register.API.csproj|solutionrelative:register.api\\models\\dto\\addcourserequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +62,175 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\44757\\register\\Register\\Register.API\\appsettings.json",
-              "RelativeDocumentMoniker": "Register.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\44757\\register\\Register\\Register.API\\appsettings.json",
-              "RelativeToolTip": "Register.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-06T15:34:18.113Z",
+              "DocumentIndex": 4,
+              "Title": "StudentCourse.cs",
+              "DocumentMoniker": "C:\\Users\\44757\\register\\Register\\Register.API\\Models\\Domain\\StudentCourse.cs",
+              "RelativeDocumentMoniker": "Register.API\\Models\\Domain\\StudentCourse.cs",
+              "ToolTip": "C:\\Users\\44757\\register\\Register\\Register.API\\Models\\Domain\\StudentCourse.cs",
+              "RelativeToolTip": "Register.API\\Models\\Domain\\StudentCourse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T13:14:57.115Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\44757\\register\\Register\\Register.API\\Program.cs",
-              "RelativeDocumentMoniker": "Register.API\\Program.cs",
-              "ToolTip": "C:\\Users\\44757\\register\\Register\\Register.API\\Program.cs",
-              "RelativeToolTip": "Register.API\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\44757\\register\\Register\\Register.API\\Models\\Domain\\Course.cs",
+              "RelativeDocumentMoniker": "Register.API\\Models\\Domain\\Course.cs",
+              "ToolTip": "C:\\Users\\44757\\register\\Register\\Register.API\\Models\\Domain\\Course.cs",
+              "RelativeToolTip": "Register.API\\Models\\Domain\\Course.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T15:33:58.376Z",
+              "WhenOpened": "2025-01-10T13:14:44.916Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\44757\\register\\Register\\Register.API\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "Register.API\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\44757\\register\\Register\\Register.API\\appsettings.Development.json",
-              "RelativeToolTip": "Register.API\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-06T15:33:43.029Z",
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Users\\44757\\register\\Register\\Register.API\\Models\\Domain\\Teacher.cs",
+              "RelativeDocumentMoniker": "Register.API\\Models\\Domain\\Teacher.cs",
+              "ToolTip": "C:\\Users\\44757\\register\\Register\\Register.API\\Models\\Domain\\Teacher.cs",
+              "RelativeToolTip": "Register.API\\Models\\Domain\\Teacher.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T13:00:16.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\44757\\register\\Register\\Register.API\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "Register.API\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\44757\\register\\Register\\Register.API\\Controllers\\StudentsController.cs*",
+              "RelativeToolTip": "Register.API\\Controllers\\StudentsController.cs*",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAAAHcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T10:58:30.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "C:\\Users\\44757\\register\\Register\\Register.API\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "Register.API\\Controllers\\CoursesController.cs",
+              "ToolTip": "C:\\Users\\44757\\register\\Register\\Register.API\\Controllers\\CoursesController.cs*",
+              "RelativeToolTip": "Register.API\\Controllers\\CoursesController.cs*",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAEsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T12:31:31.364Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StudentsController.cs",
-              "DocumentMoniker": "C:\\Users\\44757\\register\\Register\\Register.API\\Controllers\\StudentsController.cs",
-              "RelativeDocumentMoniker": "Register.API\\Controllers\\StudentsController.cs",
-              "ToolTip": "C:\\Users\\44757\\register\\Register\\Register.API\\Controllers\\StudentsController.cs",
-              "RelativeToolTip": "Register.API\\Controllers\\StudentsController.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFgAAAARAAAAAAAAAA==",
+              "Title": "TeachersController.cs",
+              "DocumentMoniker": "C:\\Users\\44757\\register\\Register\\Register.API\\Controllers\\TeachersController.cs",
+              "RelativeDocumentMoniker": "Register.API\\Controllers\\TeachersController.cs",
+              "ToolTip": "C:\\Users\\44757\\register\\Register\\Register.API\\Controllers\\TeachersController.cs*",
+              "RelativeToolTip": "Register.API\\Controllers\\TeachersController.cs*",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAwGEAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T13:32:47.073Z",
+              "WhenOpened": "2025-01-10T12:32:04.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TeacherCourse.cs",
+              "DocumentMoniker": "C:\\Users\\44757\\register\\Register\\Register.API\\Models\\Domain\\TeacherCourse.cs",
+              "RelativeDocumentMoniker": "Register.API\\Models\\Domain\\TeacherCourse.cs",
+              "ToolTip": "C:\\Users\\44757\\register\\Register\\Register.API\\Models\\Domain\\TeacherCourse.cs",
+              "RelativeToolTip": "Register.API\\Models\\Domain\\TeacherCourse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T13:00:52.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddTeacherRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\44757\\register\\Register\\Register.API\\Models\\DTO\\AddTeacherRequestDto.cs",
+              "RelativeDocumentMoniker": "Register.API\\Models\\DTO\\AddTeacherRequestDto.cs",
+              "ToolTip": "C:\\Users\\44757\\register\\Register\\Register.API\\Models\\DTO\\AddTeacherRequestDto.cs",
+              "RelativeToolTip": "Register.API\\Models\\DTO\\AddTeacherRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T13:00:45.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UpdateStudentRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\44757\\register\\Register\\Register.API\\Models\\DTO\\UpdateStudentRequestDto.cs",
+              "RelativeDocumentMoniker": "Register.API\\Models\\DTO\\UpdateStudentRequestDto.cs",
+              "ToolTip": "C:\\Users\\44757\\register\\Register\\Register.API\\Models\\DTO\\UpdateStudentRequestDto.cs*",
+              "RelativeToolTip": "Register.API\\Models\\DTO\\UpdateStudentRequestDto.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T12:45:26.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\44757\\register\\Register\\Register.API\\Models\\Domain\\Student.cs",
+              "RelativeDocumentMoniker": "Register.API\\Models\\Domain\\Student.cs",
+              "ToolTip": "C:\\Users\\44757\\register\\Register\\Register.API\\Models\\Domain\\Student.cs",
+              "RelativeToolTip": "Register.API\\Models\\Domain\\Student.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T12:50:01.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UpdateTeacherRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\44757\\register\\Register\\Register.API\\Models\\DTO\\UpdateTeacherRequestDto.cs",
+              "RelativeDocumentMoniker": "Register.API\\Models\\DTO\\UpdateTeacherRequestDto.cs",
+              "ToolTip": "C:\\Users\\44757\\register\\Register\\Register.API\\Models\\DTO\\UpdateTeacherRequestDto.cs*",
+              "RelativeToolTip": "Register.API\\Models\\DTO\\UpdateTeacherRequestDto.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T12:46:02.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UpdateCourseRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\44757\\register\\Register\\Register.API\\Models\\DTO\\UpdateCourseRequestDto.cs",
+              "RelativeDocumentMoniker": "Register.API\\Models\\DTO\\UpdateCourseRequestDto.cs",
+              "ToolTip": "C:\\Users\\44757\\register\\Register\\Register.API\\Models\\DTO\\UpdateCourseRequestDto.cs*",
+              "RelativeToolTip": "Register.API\\Models\\DTO\\UpdateCourseRequestDto.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T12:46:41.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddCourseRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\44757\\register\\Register\\Register.API\\Models\\DTO\\AddCourseRequestDto.cs",
+              "RelativeDocumentMoniker": "Register.API\\Models\\DTO\\AddCourseRequestDto.cs",
+              "ToolTip": "C:\\Users\\44757\\register\\Register\\Register.API\\Models\\DTO\\AddCourseRequestDto.cs",
+              "RelativeToolTip": "Register.API\\Models\\DTO\\AddCourseRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T12:46:50.352Z",
               "EditorCaption": ""
             }
           ]

@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Register.API.Data;
 
@@ -11,9 +12,11 @@ using Register.API.Data;
 namespace Register.API.Migrations
 {
     [DbContext(typeof(RegisterDbContext))]
-    partial class RegisterDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250109132011_changing in models")]
+    partial class changinginmodels
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

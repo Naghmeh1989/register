@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Register.API.Data;
 
@@ -11,9 +12,11 @@ using Register.API.Data;
 namespace Register.API.Migrations
 {
     [DbContext(typeof(RegisterDbContext))]
-    partial class RegisterDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250107162642_change model")]
+    partial class changemodel
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -21,6 +24,36 @@ namespace Register.API.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("CourseStudent", b =>
+                {
+                    b.Property<Guid>("CoursesId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("StudentsId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("CoursesId", "StudentsId");
+
+                    b.HasIndex("StudentsId");
+
+                    b.ToTable("StudentCourse", (string)null);
+                });
+
+            modelBuilder.Entity("CourseTeacher", b =>
+                {
+                    b.Property<Guid>("CoursesId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("TeachersId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("CoursesId", "TeachersId");
+
+                    b.HasIndex("TeachersId");
+
+                    b.ToTable("TeacherCourse", (string)null);
+                });
 
             modelBuilder.Entity("Register.API.Models.Domain.Course", b =>
                 {
@@ -56,21 +89,6 @@ namespace Register.API.Migrations
                     b.ToTable("Students");
                 });
 
-            modelBuilder.Entity("Register.API.Models.Domain.StudentCourse", b =>
-                {
-                    b.Property<Guid>("CourseId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid>("StudentId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.HasKey("CourseId", "StudentId");
-
-                    b.HasIndex("StudentId");
-
-                    b.ToTable("StudentCourses");
-                });
-
             modelBuilder.Entity("Register.API.Models.Domain.Teacher", b =>
                 {
                     b.Property<Guid>("Id")
@@ -90,74 +108,34 @@ namespace Register.API.Migrations
                     b.ToTable("Teachers");
                 });
 
-            modelBuilder.Entity("Register.API.Models.Domain.TeacherCourse", b =>
+            modelBuilder.Entity("CourseStudent", b =>
                 {
-                    b.Property<Guid>("CourseId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid>("TeacherId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.HasKey("CourseId", "TeacherId");
-
-                    b.HasIndex("TeacherId");
-
-                    b.ToTable("TeacherCourses");
-                });
-
-            modelBuilder.Entity("Register.API.Models.Domain.StudentCourse", b =>
-                {
-                    b.HasOne("Register.API.Models.Domain.Course", "Course")
-                        .WithMany("StudentCourses")
-                        .HasForeignKey("CourseId")
+                    b.HasOne("Register.API.Models.Domain.Course", null)
+                        .WithMany()
+                        .HasForeignKey("CoursesId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Register.API.Models.Domain.Student", "Student")
-                        .WithMany("StudentCourses")
-                        .HasForeignKey("StudentId")
+                    b.HasOne("Register.API.Models.Domain.Student", null)
+                        .WithMany()
+                        .HasForeignKey("StudentsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("CourseTeacher", b =>
+                {
+                    b.HasOne("Register.API.Models.Domain.Course", null)
+                        .WithMany()
+                        .HasForeignKey("CoursesId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Course");
-
-                    b.Navigation("Student");
-                });
-
-            modelBuilder.Entity("Register.API.Models.Domain.TeacherCourse", b =>
-                {
-                    b.HasOne("Register.API.Models.Domain.Course", "Course")
-                        .WithMany("TeacherCourses")
-                        .HasForeignKey("CourseId")
+                    b.HasOne("Register.API.Models.Domain.Teacher", null)
+                        .WithMany()
+                        .HasForeignKey("TeachersId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.HasOne("Register.API.Models.Domain.Teacher", "Teacher")
-                        .WithMany("TeacherCourses")
-                        .HasForeignKey("TeacherId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Course");
-
-                    b.Navigation("Teacher");
-                });
-
-            modelBuilder.Entity("Register.API.Models.Domain.Course", b =>
-                {
-                    b.Navigation("StudentCourses");
-
-                    b.Navigation("TeacherCourses");
-                });
-
-            modelBuilder.Entity("Register.API.Models.Domain.Student", b =>
-                {
-                    b.Navigation("StudentCourses");
-                });
-
-            modelBuilder.Entity("Register.API.Models.Domain.Teacher", b =>
-                {
-                    b.Navigation("TeacherCourses");
                 });
 #pragma warning restore 612, 618
         }

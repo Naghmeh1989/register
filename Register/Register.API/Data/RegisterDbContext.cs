@@ -10,11 +10,11 @@ namespace Register.API.Data
         {
                 
         }
-        public DbSet<Student> Students { get; set; }
-        public DbSet<Teacher> Teachers { get; set; }
-        public DbSet<Course> Courses { get; set; }
-        public DbSet<StudentCourse> StudentCourses { get; set; }
-        public DbSet<TeacherCourse> TeacherCourses { get; set; }
+        public virtual DbSet<Student> Students { get; set; } = null!;
+        public virtual DbSet<Teacher> Teachers { get; set; } = null!;
+        public virtual DbSet<Course> Courses { get; set; } = null!;
+        public virtual DbSet<StudentCourse> StudentCourses { get; set; }
+        public virtual DbSet<TeacherCourse> TeacherCourses { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Student>()
@@ -26,17 +26,16 @@ namespace Register.API.Data
                 .HasMany(e => e.Courses)
                 .WithMany(e => e.Teachers)
                 .UsingEntity<TeacherCourse>();
-        
+
             modelBuilder.Entity<Course>()
                 .HasMany(e => e.Teachers)
                 .WithMany(e => e.Courses)
                 .UsingEntity<TeacherCourse>();
 
             modelBuilder.Entity<Course>()
-              .HasMany(e => e.Students)
-              .WithMany(e => e.Courses)
-              .UsingEntity<StudentCourse>();
+               .HasMany(e => e.Students)
+               .WithMany(e => e.Courses)
+               .UsingEntity<StudentCourse>();
         }
-    
     }
 }

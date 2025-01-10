@@ -27,6 +27,43 @@
   },
   {
     "ContainingType": "Register.API.Controllers.CoursesController",
+    "Method": "DeleteById",
+    "RelativePath": "api/Courses",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Register.API.Controllers.CoursesController",
+    "Method": "Update",
+    "RelativePath": "api/Courses",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "updateCourseDto",
+        "Type": "Register.API.Models.DTO.UpdateCourseRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Register.API.Controllers.CoursesController",
     "Method": "GetById",
     "RelativePath": "api/Courses/{id}",
     "HttpMethod": "GET",
@@ -69,6 +106,43 @@
   },
   {
     "ContainingType": "Register.API.Controllers.StudentsController",
+    "Method": "Delete",
+    "RelativePath": "api/Students",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Register.API.Controllers.StudentsController",
+    "Method": "Update",
+    "RelativePath": "api/Students",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "updateStudentDto",
+        "Type": "Register.API.Models.DTO.UpdateStudentRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Register.API.Controllers.StudentsController",
     "Method": "GetById",
     "RelativePath": "api/Students/{id}",
     "HttpMethod": "GET",
@@ -86,15 +160,15 @@
   {
     "ContainingType": "Register.API.Controllers.StudentsController",
     "Method": "GetCourse",
-    "RelativePath": "api/Students/get-course/{id}",
+    "RelativePath": "api/Students/get-course",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
+        "Name": "student_id",
         "Type": "System.Guid",
-        "IsRequired": true
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -136,6 +210,43 @@
       {
         "Name": "addTeacherRequestDto",
         "Type": "Register.API.Models.DTO.AddTeacherRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Register.API.Controllers.TeachersController",
+    "Method": "Delete",
+    "RelativePath": "api/Teachers",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Register.API.Controllers.TeachersController",
+    "Method": "Update",
+    "RelativePath": "api/Teachers",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "updateTeacherDto",
+        "Type": "Register.API.Models.DTO.UpdateTeacherRequestDto",
         "IsRequired": true
       }
     ],
